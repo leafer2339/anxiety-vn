@@ -6,9 +6,11 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+```n: AND THIS IS THE HUMAN'S ANXIETY```
+n: VÀ ĐÂY LÀ NỖI LO LẮNG CỦA CON NGƯỜI
 
-n: _YOU_ ARE THE ANXIETY
+```n: _YOU_ ARE THE ANXIETY```
+n: _BẠN_ LÀ NỖI LO LẮNG
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
