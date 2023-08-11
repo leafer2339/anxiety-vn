@@ -24,17 +24,17 @@ n: _BẠN_ LÀ NỖI LO LẮNG
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're bck here again?
+h: Ô này! Ta lại quay lại đây à?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: NHIỆM VỤ CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: THỰC RA, CHƠI LẠI TRÒ NÀY ĐANG ĐẶT HỌ VÀO *NGUY HIỂM*
 
-n: QUICK, WARN THEM!
+n: CẢNH BÁO HỌ, NHANH!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Con người! Nghe này, chúng ta đang gặp nguy hiểm! Người chơi sẽ...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...tra tấn chúng ta lần nữa!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...không tìm được kết cục khác!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...tìm ra mâu thuẫn giữa cốt truyện và game!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Họ sẽ khiến ta cuộn lại như một quả bóng và khóc!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Họ sẽ khiến ta đập điện thoại vì nó khiến cậu hoảng loạn!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Họ sẽ *NGĂN* cậu đấm chủ bữa tiệc
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Họ sẽ khiến cậu đấm chủ bữa tiệc Phản Phản diện biết đồng cảm
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Ít nhất lần này ta sẽ không nhảy xuống khỏi sân th--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: HỌ SẼ KHIẾN TA NHẢY KHỎI SÂN THƯỢNG
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: MỌI THỨ TỒI TỆ SẼ XẢY ĐẾN VỚI CHÚNG TA, VÀ TA SẼ--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Đương nhiên rồi, câu chuyện về *tổng thể* là như nhau, nhưng mỗi chương có hai kết thúc khác nhau, cộng với các lựa chọn rẽ nh--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Người chơi sẽ thất vọng, đóng thẻ trình duyệt, xóa phần mềm, và ta sẽ--
 
 (#act1_replay_end)
 
@@ -116,19 +116,20 @@ h: A lewd-what now?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Câu chuyện là về cách bạn *CHỌN* xây dựng một mối quan hệ lành mạnh với nỗi sợ của mình như thế nào,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Chơi lại trò chơi sẽ kể lại câu chuyện tương tự, tức là *LỰA CHỌN* của bạn không quan trọng,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Từ đó cho thấy mâu thuẫn giữa thông điệp và cách vận hành của trò chơi,
 
 `bb({eyes:"fear"});`
 
 b: Thus unraveling the fabric of this narrative universe,
+b: Vén bức màn của vũ trụ đối thoại này,
 
 `bb({body:"fear"});`
 
