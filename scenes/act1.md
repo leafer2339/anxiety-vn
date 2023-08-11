@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Ô, chú sói của tôi quay lại rồi. Tuyệt.
 
 `hong({eyes:"0_neutral"})`
 
