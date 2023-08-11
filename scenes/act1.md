@@ -24,7 +24,7 @@ n: _BẠN_ LÀ NỖI LO LẮNG
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Oh hey! We're bck here again?
 
 `hong({eyes:"0_neutral"})`
 
